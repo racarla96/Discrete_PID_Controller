@@ -1,0 +1,182 @@
+
+    public:
+        /**
+        * \brief        Setter function for set a new value to Kp.
+        * \param[in]    Kp  Value to set a new value.    
+        * \return       None.
+        * \Details
+        * 
+        */
+        void set_Kp(float Kp);
+        /**
+        * \brief        Getter function to return the actual value of Kp.
+        * \return       Kp.
+        * \Details
+        * 
+        */
+        float get_Kp();
+        /**
+        * \brief        Setter function for set a new value to Ki.
+        * \param[in]    Ki  Value to set a new value.    
+        * \return       None.
+        * \Details
+        * 
+        */
+        void set_Ki(float Ki);
+        /**
+        * \brief        Getter function to return the actual value of Ki.
+        * \return       Ki.
+        * \Details
+        * 
+        */
+        float get_Ki();
+        /**
+        * \brief        Setter function for set a new value to Kd.
+        * \param[in]    Kd  Value to set a new value.    
+        * \return       None.
+        * \Details
+        * 
+        */
+        void set_Kd(float Kd);
+        /**
+        * \brief        Getter function to return the actual value of Kd.
+        * \return       Kd.
+        * \Details
+        * 
+        */
+        float get_Kd();
+        /**
+        * \brief        Setter function for set a new value to Kb.
+        * \param[in]    Kb  Value to set a new value.    
+        * \return       None.
+        * \Details
+        * 
+        */
+        void set_Kb(float Kb);
+        /**
+        * \brief        Getter function to return the actual value of Kb.
+        * \return       Kb.
+        * \Details
+        * 
+        */
+        float get_Kb();
+        /**
+        * \brief        Setter function for set a new value to N.
+        * \param[in]    N  Value to set a new value.    
+        * \return       None.
+        * \Details
+        * 
+        */
+        void set_N(float N);
+        /**
+        * \brief        Getter function to return the actual value of N.
+        * \return       N.
+        * \Details
+        * 
+        */
+        float get_N();
+        /**
+        * \brief        Setter function for set a new value to out_min.
+        * \param[in]    out_min  Value to set a new value.    
+        * \return       None.
+        * \Details
+        * 
+        */
+        void set_out_min(float out_min);
+        /**
+        * \brief        Getter function to return the actual value of out_min.
+        * \return       out_min.
+        * \Details
+        * 
+        */
+        float get_out_min();
+        /**
+        * \brief        Setter function for set a new value to out_max.
+        * \param[in]    out_max  Value to set a new value.    
+        * \return       None.
+        * \Details
+        * 
+        */
+        void set_out_max(float out_max);
+        /**
+        * \brief        Getter function to return the actual value of out_max.
+        * \return       out_max.
+        * \Details
+        * 
+        */
+        float get_out_max();
+        /**
+        * \brief        Setter function for set a new value to Ts.
+        * \param[in]    Ts  Value to set a new value.    
+        * \return       None.
+        * \Details
+        * 
+        */
+        void set_Ts(float Ts);
+        /**
+        * \brief        Getter function to return the actual value of Ts.
+        * \return       Ts.
+        * \Details
+        * 
+        */
+        float get_Ts();
+        /**
+        * \brief        Setter function for set a new value to int_init.
+        * \param[in]    int_init  Value to set a new value.    
+        * \return       None.
+        * \Details
+        * 
+        */
+        void set_int_init(float int_init);
+        /**
+        * \brief        Getter function to return the actual value of int_init.
+        * \return       int_init.
+        * \Details
+        * 
+        */
+        float get_int_init();
+        /**
+        * \brief        Setter function for set a new value to deriv_init.
+        * \param[in]    deriv_init  Value to set a new value.    
+        * \return       None.
+        * \Details
+        * 
+        */
+        void set_deriv_init(float deriv_init);
+        /**
+        * \brief        Getter function to return the actual value of deriv_init.
+        * \return       deriv_init.
+        * \Details
+        * 
+        */
+        float get_deriv_init();
+        /**
+        * \brief        Setter function for set a new value to int_method.
+        * \param[in]    int_method  Value to set a new value.    
+        * \return       None.
+        * \Details
+        * 
+        */
+        void set_int_method(ZBlockMethod int_method);
+        /**
+        * \brief        Getter function to return the actual value of int_method.
+        * \return       int_method.
+        * \Details
+        * 
+        */
+        ZBlockMethod get_int_method();
+        /**
+        * \brief        Setter function for set a new value to deriv_method.
+        * \param[in]    deriv_method  Value to set a new value.    
+        * \return       None.
+        * \Details
+        * 
+        */
+        void set_deriv_method(ZBlockMethod deriv_method);
+        /**
+        * \brief        Getter function to return the actual value of deriv_method.
+        * \return       deriv_method.
+        * \Details
+        * 
+        */
+        ZBlockMethod get_deriv_method();
