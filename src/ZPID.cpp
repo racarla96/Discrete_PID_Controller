@@ -102,7 +102,7 @@ float ZPID::update_cut_off(float setpoint, float input)
 
   this->_ticks++;
 
-  return this->_output;    
+  return 0;    
 }
 
 float ZPID::saturate(float input)
